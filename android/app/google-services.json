@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "629683081119",
+    "project_id": "pizza-burger-co",
+    "storage_bucket": "pizza-burger-co.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629683081119:android:2a9581db7d327be7b377aa",
+        "android_client_info": {
+          "package_name": "pk.pizzaburgerco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcJEZc0dFBjNmGnjbxYchNOGmzcvr3gw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1058 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:16:4-55:19
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-48:19
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-48:19
+MERGED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-48:19
+MERGED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-48:19
+MERGED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-34:19
+MERGED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-34:19
+MERGED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/naeem/.gradle/caches/transforms-3/aebe77e84f0fff1d196bb581b78f0c10/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/naeem/.gradle/caches/transforms-3/aebe77e84f0fff1d196bb581b78f0c10/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/naeem/.gradle/caches/transforms-3/75876dfafe68fb17f535fc195d0f87fe/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/naeem/.gradle/caches/transforms-3/75876dfafe68fb17f535fc195d0f87fe/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/naeem/.gradle/caches/transforms-3/1b36f11cf67faad3703ba62b02353e6a/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/naeem/.gradle/caches/transforms-3/1b36f11cf67faad3703ba62b02353e6a/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/naeem/.gradle/caches/transforms-3/e28e23bff38e9505283e8a9741879859/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/naeem/.gradle/caches/transforms-3/e28e23bff38e9505283e8a9741879859/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/naeem/.gradle/caches/transforms-3/948d210d4be39b9d9fd15125fae5761f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/naeem/.gradle/caches/transforms-3/948d210d4be39b9d9fd15125fae5761f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/naeem/.gradle/caches/transforms-3/f787439d822d049cead11482b3296400/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/naeem/.gradle/caches/transforms-3/f787439d822d049cead11482b3296400/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/naeem/.gradle/caches/transforms-3/3e8c993ceccfbb29d3fc0b50bd2e0da3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/naeem/.gradle/caches/transforms-3/3e8c993ceccfbb29d3fc0b50bd2e0da3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/naeem/.gradle/caches/transforms-3/efcb210c07cc1a164057b566d3e844f1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/naeem/.gradle/caches/transforms-3/efcb210c07cc1a164057b566d3e844f1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/naeem/.gradle/caches/transforms-3/d8d7853faaba5e0ade60e3b6fb286c9f/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/naeem/.gradle/caches/transforms-3/d8d7853faaba5e0ade60e3b6fb286c9f/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:17:9-46
+	android:icon
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:19:9-43
+	android:name
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:18:9-42
+manifest
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+MERGED from [:connectivity] /home/naeem/Documents/PBC/user_app/build/connectivity/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-50:12
+MERGED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-50:12
+MERGED from [:flutter_keyboard_visibility] /home/naeem/Documents/PBC/user_app/build/flutter_keyboard_visibility/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_local_notifications] /home/naeem/Documents/PBC/user_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:google_maps_flutter_android] /home/naeem/Documents/PBC/user_app/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-36:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/naeem/Documents/PBC/user_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:fluttertoast] /home/naeem/Documents/PBC/user_app/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:geocoding_android] /home/naeem/Documents/PBC/user_app/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:google_api_headers] /home/naeem/Documents/PBC/user_app/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-38:12
+MERGED from [:package_info_plus] /home/naeem/Documents/PBC/user_app/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] /home/naeem/Documents/PBC/user_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /home/naeem/Documents/PBC/user_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] /home/naeem/Documents/PBC/user_app/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
+MERGED from [:webview_flutter_android] /home/naeem/Documents/PBC/user_app/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/naeem/.gradle/caches/transforms-3/aebe77e84f0fff1d196bb581b78f0c10/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/naeem/.gradle/caches/transforms-3/51ef4a64cb2ce41b4897ba4f0a96728f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/naeem/.gradle/caches/transforms-3/9a7ff27184fac6b11c43a1551b26604f/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.12.0] /home/naeem/.gradle/caches/transforms-3/99c3a5e26e7762ffa3fcfa8f8c4af0e0/transformed/webkit-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.8.0] /home/naeem/.gradle/caches/transforms-3/53e0228a1d8338be5a89afd5974ca3ca/transformed/browser-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/naeem/.gradle/caches/transforms-3/198f140495d3a9737d2c940f2fcbb370/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] /home/naeem/.gradle/caches/transforms-3/1e8f66645083ee370c4ec59d8569bb5d/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/naeem/.gradle/caches/transforms-3/75876dfafe68fb17f535fc195d0f87fe/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/naeem/.gradle/caches/transforms-3/1b36f11cf67faad3703ba62b02353e6a/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/naeem/.gradle/caches/transforms-3/e28e23bff38e9505283e8a9741879859/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/naeem/.gradle/caches/transforms-3/800cfb93737b8a065fff4ede351015a4/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/naeem/.gradle/caches/transforms-3/00ca018788e59a9b025a29d552b6b112/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /home/naeem/.gradle/caches/transforms-3/08233c9875b2f7d7e33a18817d2f010f/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /home/naeem/.gradle/caches/transforms-3/1b0ecee7c873e5beda0837523f5fe5a0/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/naeem/.gradle/caches/transforms-3/6452b24e8f033996565c521c9fbe4672/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/naeem/.gradle/caches/transforms-3/6ccde0a0ee8b7b52c8bfd11f38ebab93/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/naeem/.gradle/caches/transforms-3/950cfd3b9acd59bb9233f27c4d385ac4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/naeem/.gradle/caches/transforms-3/3162e8275f2a8b89dbba6359833fb10a/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/naeem/.gradle/caches/transforms-3/39458293071ef2dc1240ff75205c9239/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/naeem/.gradle/caches/transforms-3/b2b568475c9fb33b29a91044fa52e415/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/naeem/.gradle/caches/transforms-3/9ada76558fda66e63efe18639b9e63b2/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/naeem/.gradle/caches/transforms-3/948d210d4be39b9d9fd15125fae5761f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/naeem/.gradle/caches/transforms-3/f787439d822d049cead11482b3296400/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.7.1] /home/naeem/.gradle/caches/transforms-3/40f0006f910a84d14aca361aa41b8e42/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.1] /home/naeem/.gradle/caches/transforms-3/6a5318615253b010302e08c13ddc1579/transformed/jetified-activity-1.9.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/naeem/.gradle/caches/transforms-3/05846809ac18807df33a88dc36dd6f3d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/naeem/.gradle/caches/transforms-3/4f645b94953cb3f2d77328f1d6188d05/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/naeem/.gradle/caches/transforms-3/881c02eab637a0e3aca3aa2347fd65df/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/naeem/.gradle/caches/transforms-3/9ae14550c5397c4bc322ca2980e3dd3b/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/naeem/.gradle/caches/transforms-3/36a07a4fe99d020524fcabf13a546edf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/naeem/.gradle/caches/transforms-3/0af2a04a31993a5c673f216cea0bd800/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/naeem/.gradle/caches/transforms-3/0484f2e5ebdeb959f8930a7c9e47987e/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/naeem/.gradle/caches/transforms-3/058974805eb406d4775a7591d244c7ee/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/naeem/.gradle/caches/transforms-3/34924fce742219eeaee36be77ffad5c0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/naeem/.gradle/caches/transforms-3/e6731a2c87cd408c90b38580da359857/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/naeem/.gradle/caches/transforms-3/35cd3b3057fc55edfa5c92bdcf6bc9b1/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/naeem/.gradle/caches/transforms-3/0b84202bb5a1b4f9ee434b87bc468afa/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/naeem/.gradle/caches/transforms-3/46099f2af3f6663b0f32a155b09d536b/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/naeem/.gradle/caches/transforms-3/1ef57f0c142cf18962dc49ff3e0d3849/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/naeem/.gradle/caches/transforms-3/3e8c993ceccfbb29d3fc0b50bd2e0da3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/naeem/.gradle/caches/transforms-3/31eadf1888544897232271dcd88ae5ce/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/naeem/.gradle/caches/transforms-3/efcb210c07cc1a164057b566d3e844f1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/naeem/.gradle/caches/transforms-3/86b299b591463b79bad363468d694443/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/naeem/.gradle/caches/transforms-3/b192372ec69e8303d3933e1847c4563b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/naeem/.gradle/caches/transforms-3/7a916117c43a9aa883a1a53d918abd9e/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/naeem/.gradle/caches/transforms-3/32d5682779c1fff5069a3d9238d15bb1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/naeem/.gradle/caches/transforms-3/d25febb64c802a77fed5b23bf064eea1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/naeem/.gradle/caches/transforms-3/33ffc28c667b96d3e2b54a3ba17f65af/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/naeem/.gradle/caches/transforms-3/d8d7853faaba5e0ade60e3b6fb286c9f/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/naeem/.gradle/caches/transforms-3/6474f92a65889677073a1e963775f23e/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/naeem/.gradle/caches/transforms-3/4c3c659e6b2f9ab5192150c92c33b382/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+	package
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:2:5-31
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:1-62:12
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:4:1-77
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:4:18-74
+uses-permission#android.permission.INTERNET
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:5:1-63
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:5:18-60
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:6:1-75
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:6:18-72
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:7:1-85
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:7:18-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:8:1-64
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:8:18-61
+uses-permission#android.hardware.location.gps
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:9:1-65
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:9:18-62
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:10:1-75
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:10:18-72
+uses-permission#android.permission.USE_EXACT_ALARM
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:11:1-70
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:11:18-67
+queries
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:56:5-61:15
+MERGED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+MERGED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+MERGED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-36:15
+MERGED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-36:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.VIEW+data:scheme:tel
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:57:9-60:18
+action#android.intent.action.VIEW
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:58:13-65
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:58:21-62
+data
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:59:13-42
+	android:scheme
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:59:19-39
+uses-sdk
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:connectivity] /home/naeem/Documents/PBC/user_app/build/connectivity/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity] /home/naeem/Documents/PBC/user_app/build/connectivity/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_keyboard_visibility] /home/naeem/Documents/PBC/user_app/build/flutter_keyboard_visibility/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_keyboard_visibility] /home/naeem/Documents/PBC/user_app/build/flutter_keyboard_visibility/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /home/naeem/Documents/PBC/user_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /home/naeem/Documents/PBC/user_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/naeem/Documents/PBC/user_app/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/naeem/Documents/PBC/user_app/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/naeem/Documents/PBC/user_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/naeem/Documents/PBC/user_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /home/naeem/Documents/PBC/user_app/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /home/naeem/Documents/PBC/user_app/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /home/naeem/Documents/PBC/user_app/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /home/naeem/Documents/PBC/user_app/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] /home/naeem/Documents/PBC/user_app/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] /home/naeem/Documents/PBC/user_app/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /home/naeem/Documents/PBC/user_app/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /home/naeem/Documents/PBC/user_app/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /home/naeem/Documents/PBC/user_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /home/naeem/Documents/PBC/user_app/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/naeem/Documents/PBC/user_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/naeem/Documents/PBC/user_app/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /home/naeem/Documents/PBC/user_app/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /home/naeem/Documents/PBC/user_app/build/sqflite/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /home/naeem/Documents/PBC/user_app/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /home/naeem/Documents/PBC/user_app/build/webview_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/naeem/.gradle/caches/transforms-3/aebe77e84f0fff1d196bb581b78f0c10/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/naeem/.gradle/caches/transforms-3/aebe77e84f0fff1d196bb581b78f0c10/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/naeem/.gradle/caches/transforms-3/51ef4a64cb2ce41b4897ba4f0a96728f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/naeem/.gradle/caches/transforms-3/51ef4a64cb2ce41b4897ba4f0a96728f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/naeem/.gradle/caches/transforms-3/9a7ff27184fac6b11c43a1551b26604f/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/naeem/.gradle/caches/transforms-3/9a7ff27184fac6b11c43a1551b26604f/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.12.0] /home/naeem/.gradle/caches/transforms-3/99c3a5e26e7762ffa3fcfa8f8c4af0e0/transformed/webkit-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.0] /home/naeem/.gradle/caches/transforms-3/99c3a5e26e7762ffa3fcfa8f8c4af0e0/transformed/webkit-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /home/naeem/.gradle/caches/transforms-3/53e0228a1d8338be5a89afd5974ca3ca/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /home/naeem/.gradle/caches/transforms-3/53e0228a1d8338be5a89afd5974ca3ca/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/naeem/.gradle/caches/transforms-3/198f140495d3a9737d2c940f2fcbb370/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/naeem/.gradle/caches/transforms-3/198f140495d3a9737d2c940f2fcbb370/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /home/naeem/.gradle/caches/transforms-3/1e8f66645083ee370c4ec59d8569bb5d/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /home/naeem/.gradle/caches/transforms-3/1e8f66645083ee370c4ec59d8569bb5d/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/naeem/.gradle/caches/transforms-3/75876dfafe68fb17f535fc195d0f87fe/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/naeem/.gradle/caches/transforms-3/75876dfafe68fb17f535fc195d0f87fe/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/naeem/.gradle/caches/transforms-3/1b36f11cf67faad3703ba62b02353e6a/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/naeem/.gradle/caches/transforms-3/1b36f11cf67faad3703ba62b02353e6a/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/naeem/.gradle/caches/transforms-3/e28e23bff38e9505283e8a9741879859/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/naeem/.gradle/caches/transforms-3/e28e23bff38e9505283e8a9741879859/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/naeem/.gradle/caches/transforms-3/800cfb93737b8a065fff4ede351015a4/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/naeem/.gradle/caches/transforms-3/800cfb93737b8a065fff4ede351015a4/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/naeem/.gradle/caches/transforms-3/00ca018788e59a9b025a29d552b6b112/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/naeem/.gradle/caches/transforms-3/00ca018788e59a9b025a29d552b6b112/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/naeem/.gradle/caches/transforms-3/08233c9875b2f7d7e33a18817d2f010f/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/naeem/.gradle/caches/transforms-3/08233c9875b2f7d7e33a18817d2f010f/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /home/naeem/.gradle/caches/transforms-3/1b0ecee7c873e5beda0837523f5fe5a0/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /home/naeem/.gradle/caches/transforms-3/1b0ecee7c873e5beda0837523f5fe5a0/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/naeem/.gradle/caches/transforms-3/6452b24e8f033996565c521c9fbe4672/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/naeem/.gradle/caches/transforms-3/6452b24e8f033996565c521c9fbe4672/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/naeem/.gradle/caches/transforms-3/6ccde0a0ee8b7b52c8bfd11f38ebab93/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/naeem/.gradle/caches/transforms-3/6ccde0a0ee8b7b52c8bfd11f38ebab93/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/naeem/.gradle/caches/transforms-3/950cfd3b9acd59bb9233f27c4d385ac4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/naeem/.gradle/caches/transforms-3/950cfd3b9acd59bb9233f27c4d385ac4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/naeem/.gradle/caches/transforms-3/3162e8275f2a8b89dbba6359833fb10a/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/naeem/.gradle/caches/transforms-3/3162e8275f2a8b89dbba6359833fb10a/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/naeem/.gradle/caches/transforms-3/39458293071ef2dc1240ff75205c9239/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/naeem/.gradle/caches/transforms-3/39458293071ef2dc1240ff75205c9239/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/naeem/.gradle/caches/transforms-3/b2b568475c9fb33b29a91044fa52e415/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/naeem/.gradle/caches/transforms-3/b2b568475c9fb33b29a91044fa52e415/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/naeem/.gradle/caches/transforms-3/9ada76558fda66e63efe18639b9e63b2/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/naeem/.gradle/caches/transforms-3/9ada76558fda66e63efe18639b9e63b2/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/naeem/.gradle/caches/transforms-3/948d210d4be39b9d9fd15125fae5761f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/naeem/.gradle/caches/transforms-3/948d210d4be39b9d9fd15125fae5761f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/naeem/.gradle/caches/transforms-3/f787439d822d049cead11482b3296400/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/naeem/.gradle/caches/transforms-3/f787439d822d049cead11482b3296400/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.7.1] /home/naeem/.gradle/caches/transforms-3/40f0006f910a84d14aca361aa41b8e42/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /home/naeem/.gradle/caches/transforms-3/40f0006f910a84d14aca361aa41b8e42/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.1] /home/naeem/.gradle/caches/transforms-3/6a5318615253b010302e08c13ddc1579/transformed/jetified-activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] /home/naeem/.gradle/caches/transforms-3/6a5318615253b010302e08c13ddc1579/transformed/jetified-activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/naeem/.gradle/caches/transforms-3/05846809ac18807df33a88dc36dd6f3d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/naeem/.gradle/caches/transforms-3/05846809ac18807df33a88dc36dd6f3d/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/naeem/.gradle/caches/transforms-3/4f645b94953cb3f2d77328f1d6188d05/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/naeem/.gradle/caches/transforms-3/4f645b94953cb3f2d77328f1d6188d05/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/naeem/.gradle/caches/transforms-3/881c02eab637a0e3aca3aa2347fd65df/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/naeem/.gradle/caches/transforms-3/881c02eab637a0e3aca3aa2347fd65df/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/naeem/.gradle/caches/transforms-3/9ae14550c5397c4bc322ca2980e3dd3b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/naeem/.gradle/caches/transforms-3/9ae14550c5397c4bc322ca2980e3dd3b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/naeem/.gradle/caches/transforms-3/36a07a4fe99d020524fcabf13a546edf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/naeem/.gradle/caches/transforms-3/36a07a4fe99d020524fcabf13a546edf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/naeem/.gradle/caches/transforms-3/0af2a04a31993a5c673f216cea0bd800/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/naeem/.gradle/caches/transforms-3/0af2a04a31993a5c673f216cea0bd800/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/naeem/.gradle/caches/transforms-3/0484f2e5ebdeb959f8930a7c9e47987e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/naeem/.gradle/caches/transforms-3/0484f2e5ebdeb959f8930a7c9e47987e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/naeem/.gradle/caches/transforms-3/058974805eb406d4775a7591d244c7ee/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/naeem/.gradle/caches/transforms-3/058974805eb406d4775a7591d244c7ee/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/naeem/.gradle/caches/transforms-3/34924fce742219eeaee36be77ffad5c0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/naeem/.gradle/caches/transforms-3/34924fce742219eeaee36be77ffad5c0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/naeem/.gradle/caches/transforms-3/e6731a2c87cd408c90b38580da359857/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/naeem/.gradle/caches/transforms-3/e6731a2c87cd408c90b38580da359857/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/naeem/.gradle/caches/transforms-3/35cd3b3057fc55edfa5c92bdcf6bc9b1/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/naeem/.gradle/caches/transforms-3/35cd3b3057fc55edfa5c92bdcf6bc9b1/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/naeem/.gradle/caches/transforms-3/0b84202bb5a1b4f9ee434b87bc468afa/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/naeem/.gradle/caches/transforms-3/0b84202bb5a1b4f9ee434b87bc468afa/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/naeem/.gradle/caches/transforms-3/46099f2af3f6663b0f32a155b09d536b/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/naeem/.gradle/caches/transforms-3/46099f2af3f6663b0f32a155b09d536b/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/naeem/.gradle/caches/transforms-3/1ef57f0c142cf18962dc49ff3e0d3849/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/naeem/.gradle/caches/transforms-3/1ef57f0c142cf18962dc49ff3e0d3849/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/naeem/.gradle/caches/transforms-3/3e8c993ceccfbb29d3fc0b50bd2e0da3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/naeem/.gradle/caches/transforms-3/3e8c993ceccfbb29d3fc0b50bd2e0da3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /home/naeem/.gradle/caches/transforms-3/31eadf1888544897232271dcd88ae5ce/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/naeem/.gradle/caches/transforms-3/31eadf1888544897232271dcd88ae5ce/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/naeem/.gradle/caches/transforms-3/efcb210c07cc1a164057b566d3e844f1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/naeem/.gradle/caches/transforms-3/efcb210c07cc1a164057b566d3e844f1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/naeem/.gradle/caches/transforms-3/86b299b591463b79bad363468d694443/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/naeem/.gradle/caches/transforms-3/86b299b591463b79bad363468d694443/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/naeem/.gradle/caches/transforms-3/b192372ec69e8303d3933e1847c4563b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/naeem/.gradle/caches/transforms-3/b192372ec69e8303d3933e1847c4563b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/naeem/.gradle/caches/transforms-3/7a916117c43a9aa883a1a53d918abd9e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/naeem/.gradle/caches/transforms-3/7a916117c43a9aa883a1a53d918abd9e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/naeem/.gradle/caches/transforms-3/32d5682779c1fff5069a3d9238d15bb1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/naeem/.gradle/caches/transforms-3/32d5682779c1fff5069a3d9238d15bb1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/naeem/.gradle/caches/transforms-3/d25febb64c802a77fed5b23bf064eea1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/naeem/.gradle/caches/transforms-3/d25febb64c802a77fed5b23bf064eea1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/naeem/.gradle/caches/transforms-3/33ffc28c667b96d3e2b54a3ba17f65af/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/naeem/.gradle/caches/transforms-3/33ffc28c667b96d3e2b54a3ba17f65af/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/naeem/.gradle/caches/transforms-3/d8d7853faaba5e0ade60e3b6fb286c9f/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/naeem/.gradle/caches/transforms-3/d8d7853faaba5e0ade60e3b6fb286c9f/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/naeem/.gradle/caches/transforms-3/6474f92a65889677073a1e963775f23e/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/naeem/.gradle/caches/transforms-3/6474f92a65889677073a1e963775f23e/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/naeem/.gradle/caches/transforms-3/4c3c659e6b2f9ab5192150c92c33b382/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /home/naeem/.gradle/caches/transforms-3/4c3c659e6b2f9ab5192150c92c33b382/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml
+activity#pk.pizzaburgerco.MainActivity
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:20:9-41:20
+	android:screenOrientation
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:27:13-49
+	android:launchMode
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:23:13-43
+	android:hardwareAccelerated
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:26:13-47
+	android:windowSoftInputMode
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:28:13-55
+	android:exported
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:22:13-36
+	android:configChanges
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:25:13-163
+	android:theme
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:21:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:33:13-36:17
+	android:resource
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:35:15-52
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:34:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:39:27-74
+meta-data#flutterEmbedding
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:44:9-46:33
+	android:value
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:46:13-30
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:45:13-44
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:47:9-49:55
+	android:value
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:49:13-52
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:48:13-89
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:52:9-53:73
+	android:value
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:53:16-71
+	android:name
+		ADDED from /home/naeem/Documents/PBC/user_app/android/app/src/main/AndroidManifest.xml:52:20-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity] /home/naeem/Documents/PBC/user_app/build/connectivity/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:connectivity] /home/naeem/Documents/PBC/user_app/build/connectivity/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+MERGED from [:flutter_local_notifications] /home/naeem/Documents/PBC/user_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+MERGED from [:flutter_local_notifications] /home/naeem/Documents/PBC/user_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+	android:exported
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+	android:exported
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+MERGED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+	android:authorities
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+	android:name
+		ADDED from [:firebase_messaging] /home/naeem/Documents/PBC/user_app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /home/naeem/Documents/PBC/user_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+	android:name
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+activity#com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+	android:exported
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+	android:configChanges
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+	android:name
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-112
+activity#com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+	android:exported
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-120
+activity#com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+	android:exported
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+	android:name
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-114
+activity#com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+	android:name
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-134
+activity#com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+	android:name
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-128
+receiver#com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+	android:enabled
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-119
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+	android:value
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+	android:name
+		ADDED from [:flutter_inappwebview_android] /home/naeem/Documents/PBC/user_app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /home/naeem/Documents/PBC/user_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /home/naeem/Documents/PBC/user_app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-63
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-33:19
+	android:enabled
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+	android:exported
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-40
+	android:name
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-28:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-94
+	android:name
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:36
+	android:value
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-33
+	android:name
+		ADDED from [:image_picker_android] /home/naeem/Documents/PBC/user_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-63
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] /home/naeem/Documents/PBC/user_app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+package#com.google.android.apps.maps
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-64
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-61
+package#com.google.android.apps.mapslite
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-68
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:11:18-65
+package#com.autonavi.minimap
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-56
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:12:18-53
+package#com.baidu.BaiduMap
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-54
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:13:18-51
+package#com.waze
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-44
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:14:18-41
+package#ru.yandex.yandexnavi
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-56
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:15:18-53
+package#ru.yandex.yandexmaps
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-56
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:16:18-53
+package#com.citymapper.app.release
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-62
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:17:18-59
+package#com.mapswithme.maps.pro
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-59
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:18:18-56
+package#net.osmand
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-46
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:19:18-43
+package#net.osmand.plus
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-51
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:20:18-48
+package#ru.dublgis.dgismobile
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-57
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:21:18-54
+package#com.tencent.map
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-51
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:22:18-48
+package#com.here.app.maps
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-53
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:23:18-50
+package#com.huawei.maps.app
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-55
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:24:18-52
+package#com.alk.copilot.mapviewer
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-61
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:25:18-58
+package#com.tomtom.gplay.navapp
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-59
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:26:18-56
+package#com.tomtom.gplay.navapp.gofleet
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:27:9-67
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:27:18-64
+package#com.sygic.truck
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-51
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:28:18-48
+package#nl.flitsmeister
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-51
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:29:18-48
+package#nl.flitsmeister.flux
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:30:9-56
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:30:18-53
+package#com.nhn.android.nmap
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:31:9-56
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:31:18-53
+package#net.daum.android.map
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-56
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:32:18-53
+package#com.skt.tmap.ku
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:33:9-51
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:33:18-48
+package#cz.seznam.mapy
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-50
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:34:18-47
+package#com.mmi.maps
+ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-48
+	android:name
+		ADDED from [:map_launcher] /home/naeem/Documents/PBC/user_app/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:35:18-45
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /home/naeem/Documents/PBC/user_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/naeem/.gradle/caches/transforms-3/ddb3b514ae4ad56554a58bb6c9bf62a8/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:30:13-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /home/naeem/.gradle/caches/transforms-3/c527819aae7df8f5b612cbd33cac9ff2/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:61:17-119
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/naeem/.gradle/caches/transforms-3/6002001b884df514de579b2751afa9ed/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/naeem/.gradle/caches/transforms-3/9b5c7a8931f7c2871e08de38dbbaadc4/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/naeem/.gradle/caches/transforms-3/2d2de97151c2a488a5e4e27fb4f095ef/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/naeem/.gradle/caches/transforms-3/32166091772caee7a678e57136e83efc/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/naeem/.gradle/caches/transforms-3/fcc64510cd2a86903abfee8d00adf612/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/naeem/.gradle/caches/transforms-3/884d522474de4d0a64426119b0daa78c/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/naeem/.gradle/caches/transforms-3/f787439d822d049cead11482b3296400/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/naeem/.gradle/caches/transforms-3/d8d7853faaba5e0ade60e3b6fb286c9f/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/naeem/.gradle/caches/transforms-3/d8d7853faaba5e0ade60e3b6fb286c9f/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/naeem/.gradle/caches/transforms-3/f787439d822d049cead11482b3296400/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/naeem/.gradle/caches/transforms-3/f787439d822d049cead11482b3296400/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/naeem/.gradle/caches/transforms-3/3e8c993ceccfbb29d3fc0b50bd2e0da3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/naeem/.gradle/caches/transforms-3/3e8c993ceccfbb29d3fc0b50bd2e0da3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/naeem/.gradle/caches/transforms-3/1a4b8b957542aac8de32a721fe55af70/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#pk.pizzaburgerco.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#pk.pizzaburgerco.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/naeem/.gradle/caches/transforms-3/f1afe5840e1e914ffb662b5c1923abaa/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/naeem/.gradle/caches/transforms-3/099f6f1bdff62030bbae954a7e121fe6/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/naeem/.gradle/caches/transforms-3/bd8f61bcb20573e6dda8472cf816043b/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/naeem/.gradle/caches/transforms-3/2c5ecaea969b09d56860c5f987c48d12/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/naeem/.gradle/caches/transforms-3/5e317b5175802fa94aa9be750c7b25a6/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/naeem/.gradle/caches/transforms-3/d75566d136df3ef49271207f72930271/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
