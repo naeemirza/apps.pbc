@@ -1,7 +1,7 @@
 name: foodking
-version: 1.0.10+15
+version: 1.0.10+16
 publish_to: none
-description: A new Flutter project.
+description: Food Delivery App by 32N Co for Pizza Burger & Co.
 environment:
   sdk: ">=3.5.4 <4.0.0"
 
